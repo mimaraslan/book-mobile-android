@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, _018_AlertDialog_KullanimiActivity!</string>
+    <string name="app_name">_018_AlertDialog_Kullanimi</string>
+    <string name="birdugmelialertdialog">Bir Düğmeli Alert Dialog </string>
+    <string name="ikidugmelialertdialog">İki Düğmeli Alert Dialog </string>
+    <string name="listelialertdialog">Listeli Alert Dialog </string>
+    <string name="secimlialetdialog">Seçimli Alert Dialog</string>
+</resources>

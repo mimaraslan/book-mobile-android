@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, _016_SubMenu_KullanimiActivity!</string>
+    <string name="app_name">_016_SubMenu_Kullanimi</string>
+    <string name="menu1">Menü Bir</string>
+    <string name="menu2">Menü İki</string>
+    <string name="menu3">Menü Üç</string>
+    <string name="menu4">Menü Dört</string>
+    <string name="menu5">Menü Beş</string>
+    <string name="menu6">Menü Altı</string>
+    <string name="menu7">Menü Yedi</string>
+    <string name="menu8">Menü Sekiz</string>
+    <string name="menu9">Menü Dokuz</string>
+    <string name="menu10">Menü On</string>
+    <string name="menu11">Menü On Bir</string>
+    <string name="menu12">Menü On İki</string>
+    <string name="menu13">Menü On Üç</string>
+</resources>

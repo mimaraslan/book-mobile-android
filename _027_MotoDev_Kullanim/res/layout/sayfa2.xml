@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" 
+  android:background="@drawable/resim2">
+    <RelativeLayout android:id="@+id/relativeLayout1" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent">
+        <ImageButton android:layout_width="wrap_content" 
+        android:src="@drawable/geri_simgesi" 
+        android:layout_height="wrap_content" 
+        android:layout_alignParentBottom="true" 
+        android:layout_alignParentLeft="true" 
+        android:id="@+id/imgBtnGeri"/>
+        <ImageButton android:layout_width="wrap_content" 
+        
+        android:src="@drawable/ileri_simgesi" 
+        android:layout_height="wrap_content" 
+        android:layout_alignParentBottom="true" 
+        android:layout_alignParentRight="true" 
+        android:id="@+id/imgBtnIleri"/>
+        <TextView android:text="TextView" 
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:layout_width="wrap_content" 
+        android:id="@+id/tvAdiSoyadiGelen" 
+        android:layout_height="wrap_content" 
+        android:layout_above="@+id/spMeslegi" 
+        android:layout_alignParentLeft="true"/>
+        <Spinner android:id="@+id/spMeslegi" 
+        android:layout_height="wrap_content" 
+        android:layout_above="@+id/imgBtnGeri" 
+        android:layout_alignParentLeft="true" 
+        android:layout_width="match_parent"/>
+    </RelativeLayout>
+</LinearLayout>

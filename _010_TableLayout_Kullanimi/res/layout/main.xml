@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/tableLayout1" 
+android:layout_height="wrap_content" 
+android:background="#FCF9CB" 
+android:layout_width="match_parent">
+
+    <TableRow android:id="@+id/tableRow1" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/textView1" android:layout_height="wrap_content" android:text="Adı Soyadı" android:textColor="#FC0000"></TextView>
+        <EditText android:id="@+id/editText1" 
+        android:inputType="textPersonName" 
+        android:layout_height="wrap_content" 
+        android:textColor="#4800FC" 
+        android:background="#E8FC02">
+            <requestFocus></requestFocus>
+        </EditText>
+    </TableRow>
+    
+    <TableRow android:id="@+id/tableRow2" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" 
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:id="@+id/textView2" 
+        android:layout_height="wrap_content" 
+        android:text="E-Posta" android:textColor="#FC0000"></TextView>
+        <EditText android:layout_width="wrap_content" 
+        android:id="@+id/editText2" 
+        android:inputType="textEmailAddress" android:layout_height="wrap_content" android:textColor="#4800FC" android:background="#E8FC02"></EditText>
+    </TableRow>
+    
+    <TableRow android:id="@+id/tableRow3" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" 
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:id="@+id/textView3" android:layout_height="wrap_content" 
+        android:text="Telefon Numarası" android:textColor="#FC0000"></TextView>
+        <EditText android:layout_width="wrap_content" 
+        android:id="@+id/editText3" android:inputType="phone" 
+        android:layout_height="wrap_content" android:textColor="#4800FC" 
+        android:background="#E8FC02"></EditText>
+    </TableRow>
+    
+    <TableRow android:id="@+id/tableRow4"
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" 
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:id="@+id/textView4" 
+        android:layout_height="wrap_content" android:text="Adres" 
+        android:textColor="#FC0000"></TextView>
+        <EditText android:layout_width="wrap_content" 
+        android:id="@+id/editText4" 
+        android:inputType="textPostalAddress" 
+        android:layout_height="wrap_content" 
+        android:textColor="#4800FC"
+        android:background="#E8FC02"></EditText>
+    </TableRow>
+    
+    <TableRow android:id="@+id/tableRow5" 
+    android:layout_height="wrap_content" android:layout_width="wrap_content">
+        <TextView android:layout_width="wrap_content" 
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:id="@+id/textView5" android:layout_height="wrap_content" android:text="Tarih" android:textColor="#FC0000"></TextView>
+        <EditText android:layout_width="wrap_content" 
+        android:id="@+id/editText5" 
+        android:inputType="date" 
+        android:layout_height="wrap_content"
+        android:textColor="#4800FC"
+        android:background="#E8FC02"></EditText>
+    </TableRow>
+    
+ </TableLayout>

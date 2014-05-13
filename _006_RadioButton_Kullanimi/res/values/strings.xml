@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, _006_RadioButton_KullanimiActivity!</string>
+    <string name="app_name">_006_RadioButton_Kullanimi</string>
+   
+    <string name="secenekDugmeleriBaslikYazisi">Grubu Olmayan Seçenek Düğmeleri</string>
+    <string name="secenekDugmesi1">Birinci Seçenek Düğmesi</string>
+    <string name="secenekDugmesi2">İkinci Seçenek Düğmesi</string>
+    <string name="secenekDugmesi3">Üçüncü Seçenek Düğmesi</string>
+    <string name="secenekDugmelerininSonucunuGonderenDugme">Mesaj Göster</string>
+          
+    <string name="grupSecenekDugmeleriBaslikYazisi">Gruptaki Seçenek Düğmeleri</string>      
+    <string name="grupSecenekDugmesi1">Grubun Birinci Seçenek Düğmesi</string>
+    <string name="grupSecenekDugmesi2">Grubun İkinci Seçenek Düğmesi</string>
+    <string name="grupSecenekDugmesi3">Grubun Üçüncü Seçenek Düğmesi</string>    
+    <string name="grupsecenekDugmelerininSonucunuGonderenDugme">Mesaj Göster</string>       
+</resources>

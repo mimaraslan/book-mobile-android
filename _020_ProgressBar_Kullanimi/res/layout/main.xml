@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="fill_parent" android:layout_width="fill_parent">
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+<ProgressBar android:layout_height="wrap_content" android:id="@+id/progressBar1" style="?android:attr/progressBarStyleHorizontal" android:layout_width="fill_parent"></ProgressBar>
+<CheckBox android:id="@+id/checkBox1" android:layout_height="wrap_content" android:textColor="#ffff0000" android:textSize="20dip" android:text="Yükleme İşlemini Onaylıyorum" android:layout_width="fill_parent"></CheckBox>
+<Button android:layout_height="wrap_content" 
+android:id="@+id/button1" 
+android:layout_width="fill_parent" 
+android:enabled="false" 
+android:textSize="20sp" android:text="Yüklemeye Başla"></Button>
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/resim3">
+    <RelativeLayout android:id="@+id/relativeLayout1" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent">
+        <ImageButton android:layout_width="wrap_content" 
+        android:src="@drawable/geri_simgesi" 
+        android:layout_height="wrap_content" 
+        android:layout_alignParentBottom="true" 
+        android:layout_alignParentLeft="true" 
+        android:id="@+id/imgBtnGeri"/>
+        <TextView android:text="TextView" 
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_alignTop="@+id/imgBtnGeri" 
+        android:layout_toRightOf="@+id/imgBtnGeri" 
+        android:id="@+id/tvMeslegiGelen"/>
+        <TextView android:text="TextView" 
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:layout_width="wrap_content" 
+        android:id="@+id/tvAdiSoyadiGelen" 
+        android:layout_height="wrap_content" 
+        android:layout_below="@+id/tvMeslegiGelen" 
+        android:layout_alignLeft="@+id/tvMeslegiGelen"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/lacivert"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+<Button android:id="@+id/button1" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:textColor="@color/kirmizi" 
+	 android:textSize="20sp"  
+	 android:text="ProgressDialog Mesajı : 1.YOL"></Button>
+	 
+<Button android:id="@+id/button2" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textSize="20sp" 
+android:text="ProgressDialog Mesajı : 2.YOL"
+android:textColor="@color/fosforluyesil" ></Button>
+
+<Button android:id="@+id/button3" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textSize="20sp" 
+android:text="ProgressDialog Mesajı : ProgressBar"></Button>
+</LinearLayout>

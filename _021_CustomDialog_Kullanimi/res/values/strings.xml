@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, _021_CustomDialog_KullanimiActivity!</string>
+    <string name="app_name">_021_CustomDialog_Kullanimi</string>
+    <string name="gonder">Gönder</string>
+    <string name="vazgec">Vazgeç</string>
+</resources>

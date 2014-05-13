@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+  <TextView
+    android:id="@+id/footer"
+    android:layout_width="fill_parent"
+    android:text="@string/uyari"
+    android:textSize="25dp"
+    android:padding="4dip"
+    android:background="#FF666666"
+    android:layout_height="60dp"/>
+    
+<ListView android:id="@+id/listView1" 
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content"
+    android:layout_weight="1"></ListView>
+    
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+    
+<TextView android:text="@string/secenekDugmeleriBaslikYazisi" 
+android:textAppearance="?android:attr/textAppearanceLarge" 
+android:id="@+id/textView1" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+
+<RadioButton android:text="@string/secenekDugmesi1" 
+android:id="@+id/radioButton1" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</RadioButton>
+<RadioButton android:text="@string/secenekDugmesi2" 
+android:id="@+id/radioButton2" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</RadioButton>
+<RadioButton android:text="@string/secenekDugmesi3" 
+android:id="@+id/radioButton3" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</RadioButton>
+
+<Button android:text="@string/secenekDugmelerininSonucunuGonderenDugme" 
+android:id="@+id/button1" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</Button>
+
+
+
+<TextView android:layout_width="wrap_content" 
+android:text="@string/grupSecenekDugmeleriBaslikYazisi" 
+android:id="@+id/textView2" 
+android:textAppearance="?android:attr/textAppearanceLarge" 
+android:layout_height="wrap_content">
+</TextView>
+
+<RadioGroup android:id="@+id/radioGroup1" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+    <RadioButton android:text="@string/grupSecenekDugmesi1"
+    android:id="@+id/radio0" 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" 
+    android:checked="true">
+    </RadioButton>
+    <RadioButton android:text="@string/grupSecenekDugmesi2"  
+    android:id="@+id/radio1" 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content">
+    </RadioButton>
+    <RadioButton android:text="@string/grupSecenekDugmesi3" 
+    android:id="@+id/radio2" 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content">
+    </RadioButton>
+</RadioGroup>
+
+<Button android:text="@string/grupsecenekDugmelerininSonucunuGonderenDugme"  
+android:id="@+id/button2" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</Button>
+
+</LinearLayout>

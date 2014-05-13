@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+    
+<RelativeLayout android:id="@+id/relativeLayout1" 
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent">
+    
+    <TextView android:text="Adı Soyadı : " 
+    android:layout_height="50dip" 
+    android:layout_width="130dip" 
+    android:textColor="#FB0000"
+    android:textSize="20dip"
+    android:id="@+id/textView1" 
+    android:layout_alignParentTop="true" 
+    android:layout_alignParentLeft="true"></TextView>
+    
+    <TextView android:text="E-Posta : " 
+    android:layout_height="50dp" 
+    android:layout_width="130dp"
+    android:textColor="#FB0000"
+    android:textSize="20dp"
+    android:id="@+id/textView2"
+    android:layout_below="@+id/textView1"
+    android:layout_toLeftOf="@+id/textView2"></TextView>
+    
+    <EditText android:id="@+id/editText1" 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" 
+    android:layout_toRightOf="@+id/textView1">
+        <requestFocus></requestFocus>
+    </EditText>
+   
+    <EditText 
+    android:id="@+id/editText2" 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" 
+    android:layout_below="@+id/textView1"
+    android:layout_toRightOf="@+id/textView2"
+    ></EditText>
+    
+    <Button android:id="@+id/button1" 
+    android:text="Onay Ver" 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" 
+    android:layout_alignParentBottom="true"
+    ></Button>
+    
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:layout_height="wrap_content" android:id="@+id/textView3" 
+    android:layout_width="wrap_content" android:layout_below="@+id/textView2" 
+    android:layout_alignParentLeft="true" android:text="Tahsil"></TextView>
+    
+    <Spinner android:layout_width="wrap_content" 
+    android:id="@+id/spinner1" 
+    android:layout_height="wrap_content" 
+    android:layout_alignTop="@+id/textView3" 
+    android:layout_alignLeft="@+id/editText2"></Spinner>
+    
+    <CheckBox android:layout_height="wrap_content" 
+    android:id="@+id/checkBox1" 
+    android:layout_width="wrap_content" 
+    android:layout_below="@+id/spinner1" 
+    android:layout_alignParentLeft="true" 
+    android:text="Java"></CheckBox>
+    
+    <CheckBox android:layout_height="wrap_content" 
+    android:id="@+id/checkBox2" 
+    android:layout_width="wrap_content" 
+    android:layout_alignBaseline="@+id/checkBox1" 
+    android:layout_alignBottom="@+id/checkBox1" 
+    android:layout_alignLeft="@+id/spinner1" 
+    android:text="Android"></CheckBox>
+    
+</RelativeLayout>
+
+</LinearLayout>

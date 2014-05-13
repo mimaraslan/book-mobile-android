@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">
+    Hello World, _017_ContextMenu_KullanimiActivity!</string>
+    <string name="app_name">_017_ContextMenu_Kullanimi</string>
+    <string-array name="ogerncilerListesi">
+        <item>Serkan Aytın</item>
+        <item>Mithat ALadağ</item>
+        <item>Veysel Hyung Ece</item>
+        <item>Doğancan Çelik</item>
+        <item>Barış Geçer</item>
+        <item>Murad Imanbayli</item>
+        <item>Samet Öz</item>
+        <item>Gökhan Çalışal</item>
+        <item>кадир картал</item>
+        <item>Emrah Tataroglu</item>
+        <item>Serkan Ayaz</item>
+        <item>Önder Akbulut</item>
+        <item>Izzet Ince</item>
+        <item>Feyyaz Yılmaz</item>
+		<item>Muhammed Soylar</item>
+		<item>Bilal Patir</item>
+    </string-array>
+    <string name="uyari">Lütfen bu listedeki kalendar öğrencilerden birsini seçiniz.</string>
+</resources>
+
+

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group1" 
+    android:visible="true" 
+    android:enabled="true">
+        <item android:id="@+id/item1" android:title="@string/menu1" android:icon="@drawable/droid" android:visible="false"></item>
+        <item android:id="@+id/item2" android:title="@string/menu2" android:icon="@drawable/droidalt"></item>
+        <item android:id="@+id/item3" android:title="@string/menu3" android:icon="@drawable/icon"></item>
+        <item android:id="@+id/item4" android:title="@string/menu4" android:icon="@drawable/settings"></item>
+        <item android:id="@+id/item5" android:title="@string/menu5" android:icon="@drawable/people"></item>
+        <item android:id="@+id/item6" android:title="@string/menu6" android:icon="@drawable/clock"></item>
+    </group>
+    <group android:id="@+id/group2" 
+    android:visible="true" 
+    android:enabled="true">
+        <item android:id="@+id/item7" android:title="@string/menu7"></item>
+        <item android:id="@+id/item8" android:title="@string/menu8"></item>
+        <item android:id="@+id/item9" android:title="@string/menu9"></item>
+        <item android:id="@+id/item10" android:title="@string/menu10">
+            <menu>
+                <item android:id="@+id/item11" android:title="@string/menu11" android:icon="@drawable/notes" android:enabled="true" android:visible="true"></item>
+                <item android:id="@+id/item12" android:title="@string/menu12" android:icon="@drawable/music"></item>
+                <item android:id="@+id/item13" android:title="@string/menu13"></item>
+                <item android:id="@+id/item14" android:title="Menü On Dört" android:icon="@drawable/browser"></item>
+            </menu>
+        </item>
+        <item android:id="@+id/item15" android:title="Menü On Beş" android:icon="@drawable/calculator"></item>
+    </group>
+    <item android:id="@+id/item16" android:title="Menü On Altı">
+        <menu>
+            <item android:id="@+id/item17" android:title="Menü On Yedi"></item>
+            <item android:id="@+id/item18" android:title="Menü On Sekiz"></item>
+        </menu>
+    </item>
+    
+    <item android:id="@+id/item19" android:title="Menü On Dokuz">
+        <menu>
+            <group android:id="@+id/group3" 
+            android:enabled="true" 
+            android:visible="true">
+                <item android:id="@+id/item20" android:title="Menü Yirmi" android:icon="@drawable/camcorder"></item>
+                <item android:id="@+id/item21" android:title="Menü Yirmi Bir"></item>
+            </group>
+            <item android:id="@+id/item22" android:title="Menü Yirmi İki"></item>
+            <item android:id="@+id/item23" android:title="Menü Yirmi Üç"></item>
+            <item android:id="@+id/item24" android:title="Menü Yirmi Dört"></item>
+        </menu>
+    </item>
+    
+</menu>

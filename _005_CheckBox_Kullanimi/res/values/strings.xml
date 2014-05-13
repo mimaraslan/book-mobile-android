@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">CheckBox Kullanımı</string>
+    <string name="app_name">_005_CheckBox_Kullanimi</string>
+    <string name="textView1">Kullanıcı Adı</string>
+    <string name="textView2">Adı Soyadı</string>
+    <string name="textView3">Parola</string>
+    <string name="textView4">E-Posta</string>
+    
+    <string name="button1">Gönder</string>
+    
+</resources>

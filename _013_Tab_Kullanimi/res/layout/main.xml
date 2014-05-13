@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"/>
+    
+<TabHost android:id="@android:id/tabhost" 
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent">
+    <LinearLayout android:layout_width="fill_parent" 
+    android:id="@+id/linearLayout1" 
+    android:layout_height="fill_parent" 
+    android:orientation="vertical">
+        <TabWidget android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:id="@android:id/tabs"></TabWidget>
+        <FrameLayout android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:id="@android:id/tabcontent">
+            
+            <LinearLayout android:layout_width="fill_parent" 
+            android:layout_height="fill_parent" 
+            android:id="@+id/tab1">
+	              <TextView  android:id="@+id/textview1"
+	                android:layout_width="fill_parent"
+	                android:layout_height="fill_parent" 
+	                android:text="Birinci Sekme"/>
+            </LinearLayout>
+            
+            <LinearLayout android:layout_width="fill_parent" 
+            android:layout_height="fill_parent" 
+            android:id="@+id/tab2">
+	             <TextView android:id="@+id/textview2"
+	                android:layout_width="fill_parent"
+	                android:layout_height="fill_parent" 
+	                android:text="İkinci Sekme" />
+            </LinearLayout>
+            
+            <LinearLayout android:layout_width="fill_parent" 
+            android:layout_height="fill_parent" 
+            android:id="@+id/tab3">
+	            <TextView android:id="@+id/textview3"
+	                android:layout_width="fill_parent"
+	                android:layout_height="fill_parent" 
+	                android:text="Üçüncü Sekme" />
+            </LinearLayout>
+ 
+            <LinearLayout android:layout_width="fill_parent" 
+            android:layout_height="fill_parent" 
+            android:id="@+id/tab4">
+	            <TextView android:id="@+id/textview4"
+	                android:layout_width="fill_parent"
+	                android:layout_height="fill_parent" 
+	                android:text="Dördüncü Sekme"></TextView> 
+            </LinearLayout>        
+
+        </FrameLayout>
+    </LinearLayout>
+</TabHost>
+
+</LinearLayout>

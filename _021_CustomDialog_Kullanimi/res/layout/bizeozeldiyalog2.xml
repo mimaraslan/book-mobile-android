@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/textView1" android:layout_gravity="center" android:text="Anket" android:background="#F3F781" android:textColor="#FF0000"></TextView>
+    <ImageView android:layout_height="wrap_content" android:src="@drawable/droidalt" android:layout_width="wrap_content" android:id="@+id/imageView1" android:layout_gravity="center"></ImageView>
+   
+    <RatingBar android:layout_height="wrap_content" android:id="@+id/ratingBar1" android:layout_width="wrap_content" android:layout_gravity="center"></RatingBar>
+    <LinearLayout android:id="@+id/linearLayout1" 
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content" android:layout_gravity="center">
+      
+        <Button android:id="@+id/btn1" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:text="@string/vazgec"></Button>
+       
+        <Button android:text="@string/gonder" 
+        android:id="@+id/btn2" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"></Button>
+    </LinearLayout>
+    
+    
+</LinearLayout>

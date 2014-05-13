@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="hello">Selamlar</string>
+    <string name="app_name">_027_MotoDev_Kullanim</string>
+    <string name="sayfa2baslik">Sayfa2 Başlık</string>
+    <string name="sayfa3baslik">Sayfa3 Başlık</string>
+    <string-array name="meslegi">
+        <item>Bilgisayar Mühendisi</item>
+        <item>Yazılım Mühendisi</item>
+        <item>Programcı</item>
+        <item>Donanımcı</item>
+    </string-array>
+</resources>

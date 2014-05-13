@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, _007_ToggleButton_KullanimiActivity!</string>
+    <string name="app_name">_007_ToggleButton_Kullanimi</string>
+    <string name="ciftDurumluDugmeAktif">Giriş İçin Bilgiler Bekleniyor.</string>
+    <string name="ciftDurumluDugmePasif">Giriş İçin Lütfen Düğmeyi Aktif Duruma Getiriniz.</string>
+    <string name="eposta">E-Posta Adresi</string>
+    <string name="parola">Parola</string>
+    <string name="girisDugmesi">Giriş</string>
+    
+</resources>

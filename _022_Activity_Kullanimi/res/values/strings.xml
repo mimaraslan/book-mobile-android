@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, _022_Activity_KullanimiActivity!</string>
+    <string name="app_name">_022_Activity_Kullanimi</string>
+    
+   <string-array name="meslegi">
+        <item>Bigisayar Mühendisi</item>
+        <item>Yazılım Mühendisi</item>
+        <item>Pazarlama</item>
+        <item>Muhasebe</item>
+    </string-array>
+    <string name="temizle">Temizle</string>
+    <string name="gonder">Gönder</string>
+</resources>

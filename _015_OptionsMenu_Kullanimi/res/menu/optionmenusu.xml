@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  
+    <item android:id="@+id/item1" 
+    android:icon="@drawable/albums"></item>
+    
+    <item android:id="@+id/item2" 
+    android:title="Yazı"></item>
+    
+    <item android:id="@+id/item3" 
+    android:title="Yazı ve Simge" 
+    android:icon="@drawable/droid"></item>
+</menu>
